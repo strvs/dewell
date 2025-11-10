@@ -4,12 +4,11 @@
         {
             "id"        : "1",
             "title"     : "Wellart City",
+            "avatar"    : "files/projects-avatar-1.jpg",
             "builds"    : [
                 {
                     "id"        : "1",
                     "title"     : "Forma 1",
-                    "deadlineq" : "II",
-                    "deadliney" : "2026",
                     "flats"     : [
                         {
                             "number"    : "№1309",
@@ -17,57 +16,116 @@
                             "size"      : "57.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "4285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "40000",
                             "rooms"     : "2",
                             "floor"     : "2",
                             "floors"    : "16",
-                            "features"  : ["Без отделки", "Гардеробная", "Панорамное остекление лоджии"],
-                            "url"       : "detail.html"
-                        },
-
-                        {
-                            "number"    : "№1309",
-                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
-                            "size"      : "57.6",
-                            "preview"   : "files/catalogue-item-preview.png",
-                            "price"     : "4285736",
-                            "discount"  : "-23%",
-                            "mortgage"  : "40000",
-                            "rooms"     : "2",
-                            "floor"     : "2",
-                            "floors"    : "16",
-                            "features"  : ["Без отделки", "Гардеробная", "Окно в ванной"],
-                            "url"       : "detail.html"
-                        },
-
-                        {
-                            "number"    : "№1309",
-                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
-                            "size"      : "57.6",
-                            "preview"   : "files/catalogue-item-preview.png",
-                            "price"     : "4285736",
-                            "discount"  : "-23%",
-                            "mortgage"  : "40000",
-                            "rooms"     : "2",
-                            "floor"     : "2",
-                            "floors"    : "16",
-                            "features"  : [],
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "Без отделки"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "Вид на реку"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "Стандартное остекление"
+                                },
+                                {
+                                    "title": "Планировка",
+                                    "value": "Кухня-гостиная"
+                                }
+                            ],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         },
 
                         {
                             "number"    : "№1310",
+                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/catalogue-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "rooms"     : "2",
+                            "floor"     : "2",
+                            "floors"    : "16",
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "Без отделки"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "Вид на реку"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "Панорамное остекление"
+                                },
+                                {
+                                    "title": "Редкие форматы",
+                                    "value": "Видовая квартира/Высокие потолки"
+                                },
+                                {
+                                    "title": "Планировка",
+                                    "value": "С кухней-гостиной"
+                                }
+                            ],
+                            "deadline"  : "IV квартал 2027 года",
+                            "url"       : "detail.html"
+                        },
+
+                        {
+                            "number"    : "№1311",
+                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/catalogue-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "rooms"     : "2",
+                            "floor"     : "2",
+                            "floors"    : "16",
+                            "features"  : [],
+                            "deadline"  : "II квартал 2026 года",
+                            "url"       : "detail.html"
+                        },
+
+                        {
+                            "number"    : "№1330",
                             "title"     : "3-комн. евро 107.6 м<sup>2</sup>",
                             "size"      : "107.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "6285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "30000",
                             "rooms"     : "3",
                             "floor"     : "3",
                             "floors"    : "10",
-                            "features"  : ["Без отделки", "Гардеробная", "Панорамное остекление лоджии", "Окно в ванной", "Угловое остекление", "Окна на север", "Кухня-гостиная"],
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "Без отделки"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "Во двор"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "Стандартное остекление"
+                                },
+                                {
+                                    "title": "Редкие форматы",
+                                    "value": "С гардеробной"
+                                },
+                                {
+                                    "title": "Планировка",
+                                    "value": "С кухней-гостиной"
+                                }
+                            ],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         }
                     ]
@@ -80,62 +138,83 @@
                     "deadliney" : "2026",
                     "flats"     : [
                         {
-                            "number"    : "№1309",
+                            "number"    : "№1312",
                             "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
                             "size"      : "57.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "4285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "40000",
                             "rooms"     : "2",
                             "floor"     : "2",
                             "floors"    : "16",
-                            "features"  : ["Без отделки", "Гардеробная", "Панорамное остекление лоджии"],
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "Без отделки"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "На Суру"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "Стандартное остекление"
+                                },
+                                {
+                                    "title": "Редкие форматы",
+                                    "value": "С мастер-спальней/Видовая квартира"
+                                },
+                                {
+                                    "title": "Планировка",
+                                    "value": "С кухней-гостиной"
+                                }
+                            ],
+                            "deadline"  : "",
                             "url"       : "detail.html"
                         },
 
                         {
-                            "number"    : "№1309",
+                            "number"    : "№1313",
                             "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
                             "size"      : "57.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "4285736",
-                            "discount"  : "-23%",
-                            "mortgage"  : "40000",
-                            "rooms"     : "2",
-                            "floor"     : "2",
-                            "floors"    : "16",
-                            "features"  : ["Без отделки", "Гардеробная", "Окно в ванной"],
-                            "url"       : "detail.html"
-                        },
-
-                        {
-                            "number"    : "№1309",
-                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
-                            "size"      : "57.6",
-                            "preview"   : "files/catalogue-item-preview.png",
-                            "price"     : "4285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "40000",
                             "rooms"     : "2",
                             "floor"     : "2",
                             "floors"    : "16",
                             "features"  : [],
+                            "deadline"  : "IV квартал 2025 года",
                             "url"       : "detail.html"
                         },
 
                         {
-                            "number"    : "№1310",
+                            "number"    : "№1314",
+                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/catalogue-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "rooms"     : "2",
+                            "floor"     : "2",
+                            "floors"    : "16",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2028 года",
+                            "url"       : "detail.html"
+                        },
+
+                        {
+                            "number"    : "№1340",
                             "title"     : "3-комн. евро 107.6 м<sup>2</sup>",
                             "size"      : "107.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "6285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "30000",
                             "rooms"     : "3",
                             "floor"     : "3",
                             "floors"    : "10",
-                            "features"  : ["Без отделки", "Гардеробная", "Панорамное остекление лоджии", "Окно в ванной", "Угловое остекление", "Окна на север", "Кухня-гостиная"],
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         }
                     ]
@@ -148,62 +227,62 @@
                     "deadliney" : "2026",
                     "flats"     : [
                         {
-                            "number"    : "№1309",
+                            "number"    : "№1315",
                             "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
                             "size"      : "57.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "4285736",
-                            "discount"  : "-23%",
-                            "mortgage"  : "40000",
-                            "rooms"     : "2",
-                            "floor"     : "2",
-                            "floors"    : "16",
-                            "features"  : ["Без отделки", "Гардеробная", "Панорамное остекление лоджии"],
-                            "url"       : "detail.html"
-                        },
-
-                        {
-                            "number"    : "№1309",
-                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
-                            "size"      : "57.6",
-                            "preview"   : "files/catalogue-item-preview.png",
-                            "price"     : "4285736",
-                            "discount"  : "-23%",
-                            "mortgage"  : "40000",
-                            "rooms"     : "2",
-                            "floor"     : "2",
-                            "floors"    : "16",
-                            "features"  : ["Без отделки", "Гардеробная", "Окно в ванной"],
-                            "url"       : "detail.html"
-                        },
-
-                        {
-                            "number"    : "№1309",
-                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
-                            "size"      : "57.6",
-                            "preview"   : "files/catalogue-item-preview.png",
-                            "price"     : "4285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "40000",
                             "rooms"     : "2",
                             "floor"     : "2",
                             "floors"    : "16",
                             "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         },
 
                         {
-                            "number"    : "№1310",
+                            "number"    : "№1316",
+                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/catalogue-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "rooms"     : "2",
+                            "floor"     : "2",
+                            "floors"    : "16",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail.html"
+                        },
+
+                        {
+                            "number"    : "№1317",
+                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/catalogue-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "rooms"     : "2",
+                            "floor"     : "2",
+                            "floors"    : "16",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail.html"
+                        },
+
+                        {
+                            "number"    : "№1350",
                             "title"     : "3-комн. евро 107.6 м<sup>2</sup>",
                             "size"      : "107.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "6285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "30000",
                             "rooms"     : "3",
                             "floor"     : "3",
                             "floors"    : "10",
-                            "features"  : ["Без отделки", "Гардеробная", "Панорамное остекление лоджии", "Окно в ванной", "Угловое остекление", "Окна на север", "Кухня-гостиная"],
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         }
                     ]
@@ -216,62 +295,62 @@
                     "deadliney" : "2026",
                     "flats"     : [
                         {
-                            "number"    : "№1309",
+                            "number"    : "№1318",
                             "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
                             "size"      : "57.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "4285736",
-                            "discount"  : "-23%",
-                            "mortgage"  : "40000",
-                            "rooms"     : "2",
-                            "floor"     : "2",
-                            "floors"    : "16",
-                            "features"  : ["Без отделки", "Гардеробная", "Панорамное остекление лоджии"],
-                            "url"       : "detail.html"
-                        },
-
-                        {
-                            "number"    : "№1309",
-                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
-                            "size"      : "57.6",
-                            "preview"   : "files/catalogue-item-preview.png",
-                            "price"     : "4285736",
-                            "discount"  : "-23%",
-                            "mortgage"  : "40000",
-                            "rooms"     : "2",
-                            "floor"     : "2",
-                            "floors"    : "16",
-                            "features"  : ["Без отделки", "Гардеробная", "Окно в ванной"],
-                            "url"       : "detail.html"
-                        },
-
-                        {
-                            "number"    : "№1309",
-                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
-                            "size"      : "57.6",
-                            "preview"   : "files/catalogue-item-preview.png",
-                            "price"     : "4285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "40000",
                             "rooms"     : "2",
                             "floor"     : "2",
                             "floors"    : "16",
                             "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         },
 
                         {
-                            "number"    : "№1310",
+                            "number"    : "№1319",
+                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/catalogue-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "rooms"     : "2",
+                            "floor"     : "2",
+                            "floors"    : "16",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail.html"
+                        },
+
+                        {
+                            "number"    : "№1320",
+                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/catalogue-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "rooms"     : "2",
+                            "floor"     : "2",
+                            "floors"    : "16",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail.html"
+                        },
+
+                        {
+                            "number"    : "№1360",
                             "title"     : "3-комн. евро 107.6 м<sup>2</sup>",
                             "size"      : "107.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "6285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "30000",
                             "rooms"     : "3",
                             "floor"     : "3",
                             "floors"    : "10",
-                            "features"  : ["Без отделки", "Гардеробная", "Панорамное остекление лоджии", "Окно в ванной", "Угловое остекление", "Окна на север", "Кухня-гостиная"],
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         }
                     ]
@@ -282,70 +361,132 @@
         {
             "id"        : "2",
             "title"     : "Wellness-квартал ЛЕС",
+            "avatar"    : "files/projects-avatar-3.jpg",
             "builds"    : [
                 {
                     "id"    : "1",
                     "title" : "Дом 1",
-                    "deadlineq" : "II",
-                    "deadliney" : "2026",
                     "flats"     : [
                         {
-                            "number"    : "№1309",
+                            "number"    : "№1321",
                             "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
                             "size"      : "57.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "4285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "40000",
                             "rooms"     : "2",
                             "floor"     : "2",
                             "floors"    : "16",
-                            "features"  : ["Без отделки", "Гардеробная", "Панорамное остекление лоджии"],
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "Без отделки"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "На улицу"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "Стандартное остекление"
+                                },
+                                {
+                                    "title": "Планировка",
+                                    "value": "С кухней-гостиной"
+                                }
+                            ],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         },
 
                         {
-                            "number"    : "№1309",
+                            "number"    : "№1322",
                             "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
                             "size"      : "57.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "4285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "40000",
                             "rooms"     : "2",
                             "floor"     : "2",
                             "floors"    : "16",
-                            "features"  : ["Без отделки", "Гардеробная", "Окно в ванной"],
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "75,07"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "Без отделки"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "На лес"
+                                },
+                                {
+                                    "title": "Лоджии балконы",
+                                    "value": "Стандартное остекление"
+                                },
+                                {
+                                    "title": "Редкие форматы",
+                                    "value": "Летняя эркерная лоджия"
+                                }
+                            ],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         },
 
                         {
-                            "number"    : "№1309",
+                            "number"    : "№1323",
                             "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
                             "size"      : "57.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "4285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "40000",
                             "rooms"     : "2",
                             "floor"     : "2",
                             "floors"    : "16",
                             "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         },
 
                         {
-                            "number"    : "№1310",
+                            "number"    : "№1370",
                             "title"     : "3-комн. евро 107.6 м<sup>2</sup>",
                             "size"      : "107.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "6285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "30000",
                             "rooms"     : "3",
                             "floor"     : "3",
                             "floors"    : "10",
-                            "features"  : ["Без отделки", "Гардеробная", "Панорамное остекление лоджии", "Окно в ванной", "Угловое остекление", "Окна на север", "Кухня-гостиная"],
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "89,1"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "Без отделки"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "На лес"
+                                },
+                                {
+                                    "title": "Лоджии балконы",
+                                    "value": "Панорамное остекление лоджии/Стандартное остекление"
+                                },
+                                {
+                                    "title": "Редкие форматы",
+                                    "value": "Закрытая лоджия"
+                                },
+                                {
+                                    "title": "Планировка",
+                                    "value": "С мастер-спальней"
+                                }
+                            ],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         }
                     ]
@@ -356,70 +497,261 @@
         {
             "id"        : "3",
             "title"     : "Клубный дом my MAISON",
+            "avatar"    : "files/projects-avatar-2.jpg",
             "builds"    : [
                 {
                     "id"    : "1",
                     "title" : "Дом 1",
-                    "deadlineq" : "II",
-                    "deadliney" : "2026",
                     "flats"     : [
                         {
-                            "number"    : "№1309",
+                            "number"    : "№1324",
                             "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
                             "size"      : "57.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "4285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "40000",
                             "rooms"     : "2",
                             "floor"     : "2",
                             "floors"    : "16",
-                            "features"  : ["Без отделки", "Гардеробная", "Панорамное остекление лоджии"],
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "Без отделки"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "На улицу"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "Стандартное остекление"
+                                },
+                                {
+                                    "title": "Редкие форматы",
+                                    "value": "Эркерное остекление/С гардеробной/С постирочной/С мастер-спальней"
+                                },
+                                {
+                                    "title": "Планировка",
+                                    "value": "С кухней-гостиной"
+                                }
+                            ],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         },
 
                         {
-                            "number"    : "№1309",
+                            "number"    : "№1325",
                             "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
                             "size"      : "57.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "4285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "40000",
                             "rooms"     : "2",
                             "floor"     : "2",
                             "floors"    : "16",
-                            "features"  : ["Без отделки", "Гардеробная", "Окно в ванной"],
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "Без отделки"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "На улицу"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "Стандартное остекление"
+                                },
+                                {
+                                    "title": "Редкие форматы",
+                                    "value": "Эркерное остекление/С гардеробной/С постирочной/С мастер-спальней"
+                                },
+                                {
+                                    "title": "Планировка",
+                                    "value": "С кухней-гостиной"
+                                }
+                            ],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         },
 
                         {
-                            "number"    : "№1309",
+                            "number"    : "№1326",
                             "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
                             "size"      : "57.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "4285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "40000",
                             "rooms"     : "2",
                             "floor"     : "2",
                             "floors"    : "16",
-                            "features"  : [],
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "Без отделки"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "На улицу"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "Стандартное остекление"
+                                },
+                                {
+                                    "title": "Редкие форматы",
+                                    "value": "Эркерное остекление/С гардеробной/С постирочной/С мастер-спальней"
+                                },
+                                {
+                                    "title": "Планировка",
+                                    "value": "С кухней-гостиной"
+                                }
+                            ],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         },
 
                         {
-                            "number"    : "№1310",
+                            "number"    : "№1380",
                             "title"     : "3-комн. евро 107.6 м<sup>2</sup>",
                             "size"      : "107.6",
                             "preview"   : "files/catalogue-item-preview.png",
                             "price"     : "6285736",
-                            "discount"  : "-23%",
                             "mortgage"  : "30000",
                             "rooms"     : "3",
                             "floor"     : "3",
                             "floors"    : "10",
-                            "features"  : ["Без отделки", "Гардеробная", "Панорамное остекление лоджии", "Окно в ванной", "Угловое остекление", "Окна на север", "Кухня-гостиная"],
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "Черновая"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "На крышу"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "Зеркальное остекление"
+                                },
+                                {
+                                    "title": "Редкие форматы",
+                                    "value": "С сушильной"
+                                },
+                                {
+                                    "title": "Планировка",
+                                    "value": "С кухней-столовой"
+                                }
+                            ],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail.html"
+                        },
+
+                        {
+                            "number"    : "№1327",
+                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/catalogue-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "rooms"     : "2",
+                            "floor"     : "2",
+                            "floors"    : "16",
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "Без отделки"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "На улицу"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "Стандартное остекление"
+                                },
+                                {
+                                    "title": "Редкие форматы",
+                                    "value": "Эркерное остекление/С гардеробной/С постирочной/С мастер-спальней"
+                                },
+                                {
+                                    "title": "Планировка",
+                                    "value": "С кухней-гостиной"
+                                }
+                            ],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail.html"
+                        },
+
+                        {
+                            "number"    : "№1328",
+                            "title"     : "2-комн. евро 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/catalogue-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "rooms"     : "2",
+                            "floor"     : "2",
+                            "floors"    : "16",
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "Без отделки"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "На улицу"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "Стандартное остекление"
+                                },
+                                {
+                                    "title": "Редкие форматы",
+                                    "value": "Эркерное остекление/С гардеробной/С постирочной/С мастер-спальней"
+                                },
+                                {
+                                    "title": "Планировка",
+                                    "value": "С кухней-гостиной"
+                                }
+                            ],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail.html"
+                        },
+
+                        {
+                            "number"    : "№1390",
+                            "title"     : "3-комн. евро 107.6 м<sup>2</sup>",
+                            "size"      : "107.6",
+                            "preview"   : "files/catalogue-item-preview.png",
+                            "price"     : "6285736",
+                            "mortgage"  : "30000",
+                            "rooms"     : "3",
+                            "floor"     : "3",
+                            "floors"    : "10",
+                            "features": [
+                                {
+                                    "title": "Вид отделки",
+                                    "value": "Черновая"
+                                },
+                                {
+                                    "title": "Вид из окон",
+                                    "value": "На крышу"
+                                },
+                                {
+                                    "title": "Остекление",
+                                    "value": "Зеркальное остекление"
+                                },
+                                {
+                                    "title": "Редкие форматы",
+                                    "value": "С сушильной"
+                                },
+                                {
+                                    "title": "Планировка",
+                                    "value": "С кухней-столовой"
+                                }
+                            ],
+                            "deadline"  : "IV квартал 2026 года",
                             "url"       : "detail.html"
                         }
                     ]

@@ -1,0 +1,418 @@
+{
+    "projects" : [
+
+        {
+            "id"        : "1",
+            "title"     : "Wellart City",
+            "avatar"    : "files/projects-avatar-1.jpg",
+            "builds"    : [
+                {
+                    "id"        : "1",
+                    "title"     : "Forma 1",
+                    "flats"     : [
+                        {
+                            "number"    : "№1",
+                            "title"     : "Помещение 37.3 м<sup>2</sup>",
+                            "size"      : "37.3",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "5585736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : ["Офис", "Open space"],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№2",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : ["Ритейл", "Услуги"],
+                            "deadline"  : "IV квартал 2027 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№3",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : ["Офис", "Антресольный этаж", "Услуги"],
+                            "deadline"  : "II квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№4",
+                            "title"     : "Помещение 107.6 м<sup>2</sup>",
+                            "size"      : "107.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "6285736",
+                            "mortgage"  : "30000",
+                            "floor"     : "1",
+                            "features"  : ["Офис", "Двухуровневый", "Ритейл", "Услуги"],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        }
+                    ]
+                },
+
+                {
+                    "id"    : "2",
+                    "title" : "Forma 2",
+                    "deadlineq" : "II",
+                    "deadliney" : "2026",
+                    "flats"     : [
+                        {
+                            "number"    : "№5",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : ["Ритейл"],
+                            "deadline"  : "",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№6",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : ["Ритейл"],
+                            "deadline"  : "IV квартал 2025 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№7",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2028 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№8",
+                            "title"     : "Помещение 107.6 м<sup>2</sup>",
+                            "size"      : "107.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "6285736",
+                            "mortgage"  : "30000",
+                            "floor"     : "1",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        }
+                    ]
+                },
+
+                {
+                    "id"    : "3",
+                    "title" : "Art-Villa",
+                    "deadlineq" : "II",
+                    "deadliney" : "2026",
+                    "flats"     : [
+                        {
+                            "number"    : "№9",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№10",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№11",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№12",
+                            "title"     : "Помещение 107.6 м<sup>2</sup>",
+                            "size"      : "107.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "6285736",
+                            "mortgage"  : "30000",
+                            "floor"     : "1",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        }
+                    ]
+                },
+
+                {
+                    "id"    : "4",
+                    "title" : "Akzent",
+                    "deadlineq" : "II",
+                    "deadliney" : "2026",
+                    "flats"     : [
+                        {
+                            "number"    : "№13",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№14",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№15",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№16",
+                            "title"     : "Помещение 107.6 м<sup>2</sup>",
+                            "size"      : "107.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "6285736",
+                            "mortgage"  : "30000",
+                            "floor"     : "1",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id"        : "2",
+            "title"     : "Wellness-квартал ЛЕС",
+            "avatar"    : "files/projects-avatar-3.jpg",
+            "builds"    : [
+                {
+                    "id"    : "1",
+                    "title" : "Дом 1",
+                    "flats"     : [
+                        {
+                            "number"    : "№17",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : ["Офис", "Двухуровневый", "Ритейл", "Услуги"],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№18",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : ["Офис", "Двухуровневый", "Ритейл", "Услуги"],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№19",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : [],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№20",
+                            "title"     : "Помещение 107.6 м<sup>2</sup>",
+                            "size"      : "107.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "6285736",
+                            "mortgage"  : "30000",
+                            "floor"     : "1",
+                            "features"  : ["Офис", "Двухуровневый", "Ритейл", "Услуги"],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id"        : "3",
+            "title"     : "Клубный дом my MAISON",
+            "avatar"    : "files/projects-avatar-2.jpg",
+            "builds"    : [
+                {
+                    "id"    : "1",
+                    "title" : "Дом 1",
+                    "flats"     : [
+                        {
+                            "number"    : "№21",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : ["Офис", "Двухуровневый", "Ритейл", "Услуги"],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№22",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : ["Офис", "Двухуровневый", "Ритейл", "Услуги"],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№23",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : ["Офис", "Двухуровневый", "Ритейл", "Услуги"],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№24",
+                            "title"     : "Помещение 107.6 м<sup>2</sup>",
+                            "size"      : "107.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "6285736",
+                            "mortgage"  : "30000",
+                            "floor"     : "1",
+                            "features"  : ["Офис", "Двухуровневый", "Ритейл", "Услуги"],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№25",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : ["Офис", "Двухуровневый", "Ритейл", "Услуги"],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№26",
+                            "title"     : "Помещение 57.6 м<sup>2</sup>",
+                            "size"      : "57.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "4285736",
+                            "mortgage"  : "40000",
+                            "floor"     : "1",
+                            "features"  : ["Офис", "Двухуровневый", "Ритейл", "Услуги"],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        },
+
+                        {
+                            "number"    : "№27",
+                            "title"     : "Помещение 107.6 м<sup>2</sup>",
+                            "size"      : "107.6",
+                            "preview"   : "files/commercial-item-preview.png",
+                            "price"     : "6285736",
+                            "mortgage"  : "30000",
+                            "floor"     : "1",
+                            "features"  : ["Офис", "Двухуровневый", "Ритейл", "Услуги"],
+                            "deadline"  : "IV квартал 2026 года",
+                            "url"       : "detail-commercial.html"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

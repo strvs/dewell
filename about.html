@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>DEWELL</title>
+
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="js/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="js/nouislider/nouislider.css">
+
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="favicon/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="favicon/favicon-128.png" sizes="128x128">
+        <meta name="application-name" content="Dewell">
+        <meta name="msapplication-TileColor" content="#282850">
+        <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
+        <meta name="msapplication-square70x70logo" content="favicon/mstile-70x70.png">
+        <meta name="msapplication-square150x150logo" content="favicon/mstile-150x150.png">
+        <meta name="msapplication-wide310x150logo" content="favicon/mstile-310x150.png">
+        <meta name="msapplication-square310x310logo" content="favicon/mstile-310x310.png">
+
+        <meta name="viewport" content="width=device-width">
+    </head>
+
+    <body class="page-about">
+
+        <!-- wrapper -->
+        <div class="wrapper" data-flatdata="ajax/flats.json" data-commercialdata="ajax/commercial.json">
+
+            <!-- wrapper inner -->
+            <div class="wrapper-inner">
+
+                <header>
+                    <div class="header-sub-bg"></div>
+                    <div class="container">
+                        <div class="logo"><a href="#"><svg><use xlink:href="images/sprite.svg#logo"></use></svg></a></div>
+                        <div class="header-menu">
+                            <div class="header-menu-item">
+                                <div class="header-menu-item-link"><a href="#">Проекты</a></div>
+                                <div class="header-menu-item-submenu">
+                                    <div class="header-menu-item-submenu-container">
+                                        <div class="header-menu-projects">
+                                            <div class="header-menu-projects-content">
+                                                <div class="header-menu-projects-list">
+                                                    <div class="header-menu-projects-item" data-id="1" data-img="files/header-menu-projects-01.jpg">
+                                                        <a href="#" class="header-menu-projects-item-link">
+                                                            <div class="header-menu-projects-item-title">WELLART City</div>
+                                                            <div class="header-menu-projects-item-info"><strong>от <em>0</em> млн ₽</strong><span></span>ул. Богданова 33</div>
+                                                            <div class="header-menu-projects-item-flats"><span>0 квартир</span></div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="header-menu-projects-item" data-id="2" data-img="files/header-menu-projects-02.jpg">
+                                                        <a href="#" class="header-menu-projects-item-link">
+                                                            <div class="header-menu-projects-item-title">Wellness-квартал ЛЕС</div>
+                                                            <div class="header-menu-projects-item-info"><strong>от <em>0</em> млн ₽</strong><span></span>мкрн Ахуны, ул. Кордон Студеный, 46</div>
+                                                            <div class="header-menu-projects-item-flats"><span>0 квартир</span></div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="header-menu-projects-item" data-id="3" data-img="files/header-menu-projects-03.jpg">
+                                                        <a href="#" class="header-menu-projects-item-link">
+                                                            <div class="header-menu-projects-item-title">Клубный дом my MAISON</div>
+                                                            <div class="header-menu-projects-item-info"><strong>от <em>0</em> млн ₽</strong><span></span>Заречный, ул. Братская, 8</div>
+                                                            <div class="header-menu-projects-item-flats">Всего <span>0 квартир</span></div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="header-menu-projects-item">
+                                                        <div class="header-menu-projects-item-soon">
+                                                            <div class="header-menu-projects-item-title">Проект в Тепличном</div>
+                                                            <div class="header-menu-projects-item-info">Скоро старт продаж<span></span>мкрн Тепличный</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="header-menu-projects-btn"><a href="#" class="btn">Смотреть все 4 проекта</a></div>
+                                            </div>
+                                            <div class="header-menu-projects-info">
+                                                <div class="header-menu-projects-info-title"></div>
+                                                <div class="header-menu-projects-info-flats"></div>
+                                                <div class="header-menu-projects-info-price"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-menu-item">
+                                <div class="header-menu-item-link"><a href="#">Недвижимость</a></div>
+                                <div class="header-menu-item-submenu">
+                                    <div class="header-menu-item-submenu-container">
+                                        <div class="header-menu-realty">
+                                            <div class="header-menu-realty-content">
+                                                <div class="header-menu-realty-menu">
+                                                    <div class="header-menu-realty-menu-item"><a href="#">Квартиры</a></div>
+                                                    <div class="header-menu-realty-menu-item"><a href="#">Машиноместа</a></div>
+                                                    <div class="header-menu-realty-menu-item"><a href="#">Кладовые</a></div>
+                                                    <div class="header-menu-realty-menu-item"><a href="#">Коммерция</a></div>
+                                                </div>
+                                                <div class="header-menu-realty-container">
+                                                    <div class="header-menu-realty-item">
+                                                        <div class="header-menu-realty-item-flats">
+                                                            <a href="catalogue.html?props%5BВидовая+квартира%5D=Видовая+квартира"><span>Видовая квартира</span><em>от <strong>30</strong> млн ₽</em></a>
+                                                            <a href="catalogue.html?props%5BВид+на+лес%5D=Вид+на+лес"><span>Вид на лес</span><em>от <strong>30</strong> млн ₽</em></a>
+                                                            <a href="catalogue.html?props%5BМастер-спальня%5D=Мастер-спальня"><span>Мастер-спальня</span><em>от <strong>30</strong> млн ₽</em></a>
+                                                            <a href="catalogue.html?props%5BГардеробная%5D=Гардеробная"><span>Гардеробная</span><em>от <strong>30</strong> млн ₽</em></a>
+                                                            <a href="catalogue.html?props%5BПанорамное+остекление%5D=Панорамное+остекление"><span>Панорамное остекление</span><em>от <strong>30</strong> млн ₽</em></a>
+                                                        </div>
+                                                        <div class="header-menu-realty-item-btn"><a href="#" class="btn">Смотреть&nbsp;<span class="header-menu-realty-item-flats-all">0 квартир</span></a></div>
+                                                    </div>
+                                                    <div class="header-menu-realty-item">
+                                                        <div class="header-menu-realty-item-parking">
+                                                            <div class="header-menu-realty-item-parking-item">
+                                                                <a href="#">
+                                                                    <div class="header-menu-realty-item-parking-item-title">WELLART City</div>
+                                                                    <div class="header-menu-realty-item-parking-item-text">62 предложения</div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="header-menu-realty-item-parking-item">
+                                                                <a href="#">
+                                                                    <div class="header-menu-realty-item-parking-item-title">Wellness-квартал ЛЕС</div>
+                                                                    <div class="header-menu-realty-item-parking-item-text">15 предложений</div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="header-menu-realty-item-parking-item">
+                                                                <a href="#">
+                                                                    <div class="header-menu-realty-item-parking-item-title">Клубный дом my MAISON</div>
+                                                                    <div class="header-menu-realty-item-parking-item-text">14 предложений</div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="header-menu-realty-item-btn"><a href="#" class="btn">Смотреть 112 машиномест</a></div>
+                                                    </div>
+                                                    <div class="header-menu-realty-item">
+                                                        <div class="header-menu-realty-item-parking">
+                                                            <div class="header-menu-realty-item-parking-item">
+                                                                <a href="#">
+                                                                    <div class="header-menu-realty-item-parking-item-title">Wellness-квартал ЛЕС</div>
+                                                                    <div class="header-menu-realty-item-parking-item-text">15 предложений</div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="header-menu-realty-item-parking-item">
+                                                                <a href="#">
+                                                                    <div class="header-menu-realty-item-parking-item-title">Клубный дом my MAISON</div>
+                                                                    <div class="header-menu-realty-item-parking-item-text">14 предложений</div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="header-menu-realty-item-btn"><a href="#" class="btn">Смотреть 1290 кладовых</a></div>
+                                                    </div>
+                                                    <div class="header-menu-realty-item">
+                                                        <div class="header-menu-realty-item-parking">
+                                                            <div class="header-menu-realty-item-parking-item">
+                                                                <a href="#">
+                                                                    <div class="header-menu-realty-item-parking-item-title">Клубный дом my MAISON</div>
+                                                                    <div class="header-menu-realty-item-parking-item-text">18 предложений</div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="header-menu-realty-item-btn"><a href="#" class="btn">Смотреть 1290 коммерческих помещений</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="header-menu-realty-help">
+                                                <div class="header-menu-realty-help-content">
+                                                    <div class="header-menu-realty-help-title">Поможем с&nbsp;выбором</div>
+                                                    <div class="header-menu-realty-help-text">Запишитесь на&nbsp;встречу или&nbsp;онлайн-консультацию</div>
+                                                </div>
+                                                <div class="header-menu-realty-help-btn"><a href="#" class="btn btn-mini btn-white">Записаться<svg><use xlink:href="images/sprite.svg#btn-arrow"></use></svg></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-menu-item">
+                                <div class="header-menu-item-link"><a href="#">Коммерция</a></div>
+                            </div>
+                            <div class="header-menu-item">
+                                <div class="header-menu-item-link"><a href="#">Как купить</a></div>
+                            </div>
+                            <div class="header-menu-item">
+                                <div class="header-menu-item-link"><a href="#">Акции</a></div>
+                            </div>
+                            <div class="header-menu-item">
+                                <div class="header-menu-item-link"><a href="#">Компания</a></div>
+                                <div class="header-menu-item-submenu">
+                                    <div class="header-menu-item-submenu-container">
+                                        <div class="header-menu-company">
+                                            <div class="header-menu-company-left">
+                                                <div class="header-menu-company-menu">
+                                                    <div class="header-menu-company-menu-item active"><a href="#">О Dewell</a></div>
+                                                    <div class="header-menu-company-menu-item"><a href="#">Карьера</a></div>
+                                                    <div class="header-menu-company-menu-item"><a href="#">Вопросы и ответы</a></div>
+                                                    <div class="header-menu-company-menu-item"><a href="#">Документы</a></div>
+                                                </div>
+                                                <div class="header-menu-company-feedback">
+                                                    <div class="header-menu-company-feedback-title">Оставьте предложение или жалобу</div>
+                                                    <div class="header-menu-company-feedback-btn"><a href="windows/feedback.html" class="btn window-link">Написать нам</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="header-menu-company-right">
+                                                <div class="header-menu-company-right-item active" style="background-image:url(images/header-menu-company-about.jpg)">
+                                                    <div class="header-menu-company-right-item-title">Мы не просто строим дома. Мы строим будущее</div>
+                                                </div>
+                                                <div class="header-menu-company-right-item" style="background-image:url(images/header-menu-company-career.jpg)">
+                                                    <div class="header-menu-company-right-item-title">Люди&nbsp;&mdash; главная сила DEWELL Group</div>
+                                                    <div class="header-menu-company-right-item-btn"><a href="#" class="btn btn-light">Стать частью команды</a></div>
+                                                </div>
+                                                <div class="header-menu-company-right-item" style="background-image:url(images/header-menu-company-faq.jpg)">
+                                                    <div class="header-menu-company-right-item-title">Знаем, что вас волнует&nbsp;&mdash; и&nbsp;уже подготовили ответы</div>
+                                                </div>
+                                                <div class="header-menu-company-right-item" style="background-image:url(images/header-menu-company-docs.jpg)">
+                                                    <div class="header-menu-company-right-item-title">Полная открытость&nbsp;&mdash; документы по&nbsp;каждому проекту</div>
+                                                    <div class="header-menu-company-right-item-btn"><a href="#" class="btn btn-light" target="_blank">Документация на сайте ДОМ.РФ</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-menu-item">
+                                <div class="header-menu-item-link"><a href="#">Контакты</a></div>
+                                <div class="header-menu-item-submenu">
+                                    <div class="header-menu-item-submenu-container">
+                                        <div class="header-menu-contacts">
+                                            <div class="header-menu-contacts-left">
+                                                <div class="header-menu-contacts-menu">
+                                                    <div class="header-menu-contacts-menu-item"><a href="contacts.html#offices">Контакты подразделений</a></div>
+                                                    <div class="header-menu-contacts-menu-item"><a href="contacts.html#map">Главный офис на&nbsp;карте</a></div>
+                                                </div>
+                                                <div class="header-menu-contacts-menu-map"><a href="contacts.html#map"><img src="images/header-menu-contacts-map.png" alt=""></a></div>
+                                                <div class="header-menu-contacts-btns">
+                                                    <div class="header-menu-contacts-btn"><a href="windows/consult.html" class="btn window-link">Записаться на встречу</a></div>
+                                                    <div class="header-menu-contacts-social">
+                                                        <a href="#" target="_blank"><svg><use xlink:href="images/sprite.svg#social-vk"></use></svg></a>
+                                                        <a href="#" target="_blank"><svg><use xlink:href="images/sprite.svg#social-tg"></use></svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="header-menu-contacts-right">
+                                                <div class="header-menu-contacts-right-title">Главный офис Dewell Group</div>
+                                                <div class="header-menu-contacts-right-address">Пенза, ул. Захарова, 20Г</div>
+                                                <div class="header-menu-contacts-right-schedule">Работаем с 8:30 до 17:30</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-right">
+                            <a href="tel:+78412210078" class="header-phone"><span>8 (8412) 21-00-78</span><svg><use xlink:href="images/sprite.svg#icon-phone"></use></svg></a>
+                            <a href="windows/callback.html" class="header-callback btn btn-border btn-mini window-link">Обратный звонок</a>
+                            <a href="#" class="header-favourite"><svg><use xlink:href="images/sprite.svg#icon-favourite"></use></svg><svg><use xlink:href="images/sprite.svg#icon-favourite-active"></use></svg></a>
+                            <a href="#" class="header-contacts-mobile"><svg><use xlink:href="images/sprite.svg#icon-phone"></use></svg><span>Связаться</span></a>
+                            <a href="#" class="header-filter-link"><svg><use xlink:href="images/sprite.svg#icon-header-filter"></use></svg><span>Квартиры</span></a>
+                            <a href="#" class="header-menu-link"><svg><use xlink:href="images/sprite.svg#burger-menu"></use></svg><svg><use xlink:href="images/sprite.svg#burger-menu-close"></use></svg><span>Меню</span></a>
+                        </div>
+                        <div class="mobile-menu">
+                            <div class="mobile-menu-list">
+                                <div class="mobile-menu-item">
+                                    <div class="mobile-menu-item-parent"><a href="#"><span>Проекты</span><svg><use xlink:href="images/sprite.svg#menu-arrow"></use></svg></a></div>
+                                    <div class="mobile-menu-item-sub">
+                                        <div class="mobile-menu-item-sub-item"><a href="#">Wellart City</a></div>
+                                        <div class="mobile-menu-item-sub-item"><a href="#">Wellness-квартал ЛЕС</a></div>
+                                        <div class="mobile-menu-item-sub-item"><a href="#">Клубный дом my MAISON</a></div>
+                                        <div class="mobile-menu-item-sub-item"><span>Проект в Тепличном</span></div>
+                                    </div>
+                                </div>
+                                <div class="mobile-menu-item">
+                                    <div class="mobile-menu-item-parent"><a href="#"><span>Квартиры (<span class="mobile-menu-flats-count">325</span>)</span><svg><use xlink:href="images/sprite.svg#menu-arrow"></use></svg></a></div>
+                                    <div class="mobile-menu-item-sub">
+                                        <div class="mobile-menu-item-sub-item"><a href="catalogue.html?props%5BВидовая+квартира%5D=Видовая+квартира">Видовая квартира</a></div>
+                                        <div class="mobile-menu-item-sub-item"><a href="catalogue.html?props%5BВид+на+лес%5D=Вид+на+лес">Вид на лес</a></div>
+                                        <div class="mobile-menu-item-sub-item"><a href="catalogue.html?props%5BМастер-спальня%5D=Мастер-спальня">Мастер-спальня</a></div>
+                                        <div class="mobile-menu-item-sub-item"><a href="catalogue.html?props%5BГардеробная%5D=Гардеробная">Гардеробная</a></div>
+                                        <div class="mobile-menu-item-sub-item"><a href="catalogue.html?props%5BПанорамное+остекление%5D=Панорамное+остекление">Панорамное остекление</a></div>
+                                    </div>
+                                </div>
+                                <div class="mobile-menu-item">
+                                    <div class="mobile-menu-item-parent"><a href="#"><span>Машино-места (<span class="mobile-menu-flats-count">0</span>)</span></a></div>
+                                </div>
+                                <div class="mobile-menu-item">
+                                    <div class="mobile-menu-item-parent"><a href="#"><span>Кладовые (<span class="mobile-menu-store-count">0</span>)</span></a></div>
+                                </div>
+                                <div class="mobile-menu-item">
+                                    <div class="mobile-menu-item-parent"><a href="#"><span>Коммерческие помещения (<span class="mobile-menu-commercial-count">0</span>)</span></a></div>
+                                </div>
+                                <div class="mobile-menu-item">
+                                    <div class="mobile-menu-item-parent"><a href="#"><span>Ипотека</span></a></div>
+                                </div>
+                                <div class="mobile-menu-item">
+                                    <div class="mobile-menu-item-parent"><a href="#"><span>Другие способы покупки</span><svg><use xlink:href="images/sprite.svg#menu-arrow"></use></svg></a></div>
+                                    <div class="mobile-menu-item-sub">
+                                        <div class="mobile-menu-item-sub-item"><a href="#">Рассрочка</a></div>
+                                        <div class="mobile-menu-item-sub-item"><a href="#">100% оплата</a></div>
+                                        <div class="mobile-menu-item-sub-item"><a href="#">Трейд-ин</a></div>
+                                    </div>
+                                </div>
+                                <div class="mobile-menu-item">
+                                    <div class="mobile-menu-item-parent"><a href="#"><span>Акции</span></a></div>
+                                </div>
+                                <div class="mobile-menu-sep"></div>
+                                <div class="mobile-menu-item">
+                                    <div class="mobile-menu-item-parent"><a href="#"><span>Компания</span><svg><use xlink:href="images/sprite.svg#menu-arrow"></use></svg></a></div>
+                                    <div class="mobile-menu-item-sub">
+                                        <div class="mobile-menu-item-sub-item"><a href="#">О компании</a></div>
+                                        <div class="mobile-menu-item-sub-item"><a href="#">Карьера</a></div>
+                                        <div class="mobile-menu-item-sub-item"><a href="#">Партнерам и агентам</a></div>
+                                        <div class="mobile-menu-item-sub-item"><a href="#">Вопросы и ответы</a></div>
+                                        <div class="mobile-menu-item-sub-item"><a href="#">Документы</a></div>
+                                        <div class="mobile-menu-item-sub-item"><a href="#">Контакты</a></div>
+                                    </div>
+                                </div>
+                                <div class="mobile-menu-item">
+                                    <div class="mobile-menu-item-parent"><a href="#"><span>Контакты</span></a></div>
+                                </div>
+                            </div>
+                            <div class="mobile-menu-contacts">
+                                <div class="mobile-menu-contacts-title">Связаться<br> с&nbsp;нами</div>
+                                <div class="mobile-menu-contacts-phone">
+                                    <div class="mobile-menu-contacts-phone-value"><a href="tel:+78412210078">8 (8412) 21-00-78</a></div>
+                                    <div class="mobile-menu-contacts-phone-schedule">С 9:00 до 20:00</div>
+                                </div>
+                                <div class="mobile-menu-contacts-callback"><a href="windows/callback.html" class="btn window-link"><svg><use xlink:href="images/sprite.svg#icon-mobile-menu-callback"></use></svg>Заказать звонок</a></div>
+                            </div>
+                        </div>
+
+                        <div class="mobile-contacts">
+                            <div class="mobile-contacts-inner">
+                                <div class="mobile-contacts-header">Связаться с нами</div>
+                                <div class="mobile-contacts-phone">
+                                    <div class="mobile-contacts-phone-value"><a href="tel:+78412210078">8 (8412) 21-00-78</a></div>
+                                    <div class="mobile-contacts-phone-schedule">Работаем ежедневно с&nbsp;9:00 до&nbsp;20:00</div>
+                                </div>
+                                <div class="mobile-contacts-links">
+                                    <div class="mobile-contacts-link"><a href="windows/callback.html" class="window-link"><svg><use xlink:href="images/sprite.svg#mobile-contacts-callback"></use></svg>Заказать звонок</a></div>
+                                    <div class="mobile-contacts-link"><a href="windows/consult.html" class="window-link"><svg><use xlink:href="images/sprite.svg#mobile-contacts-consult"></use></svg>Записаться на встречу</a></div>
+                                    <div class="mobile-contacts-link"><a href="https://t.me/+cLNpQm-uroJiNGQy?roistat_visit=275316" target="_blank"><svg><use xlink:href="images/sprite.svg#mobile-contacts-telegram"></use></svg>Написать в Telegram</a></div>
+                                    <div class="mobile-contacts-link"><a href="windows/feedback.html" class="window-link"><svg><use xlink:href="images/sprite.svg#mobile-contacts-feedback"></use></svg>Оставить предложение/жалобу</a></div>
+                                </div>
+                                <a href="#" class="mobile-contacts-close"><svg><use xlink:href="images/sprite.svg#mobile-contacts-close"></use></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="about-header">
+                    <div class="container">
+                        <div class="about-header-container">
+                            <div class="about-header-subtitle">Компания</div>
+                            <h1>DEWELL — концептуальный девелопмент</h1>
+                        </div>
+                        <div class="about-header-text">Более 10&nbsp;лет мы&nbsp;строим жилые комплексы и&nbsp;развиваем городскую среду. В&nbsp;основе каждого проекта DEWELL лежит уникальная базовая идея с&nbsp;акцентом на&nbsp;интересы аудитории и&nbsp;потенциал локации. Мы&nbsp;тщательно работаем над реализацией каждого проекта и&nbsp;делаем ставку на&nbsp;качество и&nbsp;концепт.</div>
+                    </div>
+                </div>
+
+                <!-- container -->
+                <div class="container">
+
+                    <!-- about digits -->
+                    <div class="about-digits">
+                        <div class="about-digit">
+                            <div class="about-digit-title">2015 г.</div>
+                            <div class="about-digit-text">год основания<br> компании</div>
+                        </div>
+                        <div class="about-digit">
+                            <div class="about-digit-title">7 проектов</div>
+                            <div class="about-digit-text">3 реализованных проекта,<br> 4 строятся</div>
+                        </div>
+                        <div class="about-digit">
+                            <div class="about-digit-title">736 818 м<sup>2</sup></div>
+                            <div class="about-digit-text">Общая площадь в проектах.<br> Из них уже введено в эксплуатацию<br> 136 818 м<sup>2</sup></div>
+                        </div>
+                        <div class="about-digit">
+                            <div class="about-digit-title">1520+</div>
+                            <div class="about-digit-text">человек уже<br> улучшили условия<br> своей жизни</div>
+                        </div>
+                    </div>
+                    <!-- about digits END -->
+
+                    <!-- main section -->
+                    <div class="main-section about-success">
+                        <div class="main-section-title">Тщательный подход - успешные решения</div>
+                        <div class="about-success-text">
+                            <p>Мы&nbsp;уверенно закрепляем свои позиции как один из&nbsp;ведущих застройщиков Пензы и&nbsp;Заречного, создавая жилые комплексы и&nbsp;кварталы, продуманные до&nbsp;мельчайших деталей. Наши решения отвечают современным требованиям, а&nbsp;инфраструктура создает комфортную и&nbsp;благоприятную среду для жизни.</p>
+                            <p>Хочешь сделать хорошо? Сделай это сам!<br> Мы&nbsp;охватываем весь процесс создания недвижимости: от&nbsp;проектирования и&nbsp;строительства до&nbsp;ввода объектов в&nbsp;эксплуатацию и&nbsp;их&nbsp;обслуживания. Для нас важно, чтобы путь клиента был максимально удобным и&nbsp;бесшовным на&nbsp;всех этапах&nbsp;&mdash; от&nbsp;выбора квартиры до&nbsp;ее&nbsp;покупки и&nbsp;заботы о&nbsp;жилье в&nbsp;дальнейшем. Мы&nbsp;строим сегодня, чтобы ваше будущее было комфортным, современным и&nbsp;надежным уже завтра.</p>
+                        </div>
+                        <div class="about-success-text-more"><a href="#"><span>Развернуть</span><span>Свернуть</span><svg><use xlink:href="images/sprite.svg#menu-arrow"></use></svg></a></div>
+                    </div>
+                    <!-- main section END -->
+
+                    <!-- main section -->
+                    <div class="main-section">
+                        <div class="main-section-title">Реализованные проекты DEWELL</div>
+                        <div class="projects-success about-projects">
+                            <div class="projects-success-item">
+                                <div class="projects-success-item-preview">
+                                    <div class="projects-success-item-images">
+                                        <div class="projects-success-item-images-item" style="background-image:url(files/projects-success-1.jpg)"></div>
+                                        <div class="projects-success-item-images-item" style="background-image:url(files/projects-success-2.jpg)"></div>
+                                        <div class="projects-success-item-images-item" style="background-image:url(files/projects-success-3.jpg)"></div>
+                                    </div>
+                                    <div class="projects-success-item-info">
+                                        <div class="projects-success-item-info-item">Объем строительства: 122 345 м<sup>2</sup></div>
+                                        <div class="projects-success-item-info-item">Дом сдан в 2019 году</div>
+                                    </div>
+                                </div>
+                                <div class="projects-success-item-title">Аристократ</div>
+                                <div class="projects-success-item-text">В&nbsp;проекте мы&nbsp;реализовали сразу несколько инновационных решений (многоуровневая площадка во&nbsp;дворе, пентхаусы с&nbsp;террасами). Комплекс бизнес-класса стал новой городской доминантой в&nbsp;динамично развивающемся районе Арбеково.</div>
+                            </div>
+                            <div class="projects-success-item">
+                                <div class="projects-success-item-preview">
+                                    <div class="projects-success-item-images">
+                                        <div class="projects-success-item-images-item" style="background-image:url(files/projects-success-2.jpg)"></div>
+                                        <div class="projects-success-item-images-item" style="background-image:url(files/projects-success-1.jpg)"></div>
+                                        <div class="projects-success-item-images-item" style="background-image:url(files/projects-success-3.jpg)"></div>
+                                    </div>
+                                    <div class="projects-success-item-info">
+                                        <div class="projects-success-item-info-item">Объем строительства: 122 345 м<sup>2</sup></div>
+                                        <div class="projects-success-item-info-item">Дом сдан в 2021 году</div>
+                                    </div>
+                                </div>
+                                <div class="projects-success-item-title">Barton House</div>
+                                <div class="projects-success-item-text">Жилой комплекс бизнес-класса. Всего 88&nbsp;квартир, тихая локация на&nbsp;улице Красной, европейская концепция благоустройства двора, стильные фасады в&nbsp;клинкере и&nbsp;композите. При реализации проекта нам удалось не&nbsp;просто сохранить, но&nbsp;и&nbsp;подчеркнуть особенную атмосферу и&nbsp;облик исторического центра города.</div>
+                            </div>
+                            <div class="projects-success-item">
+                                <div class="projects-success-item-preview">
+                                    <div class="projects-success-item-images">
+                                        <div class="projects-success-item-images-item" style="background-image:url(files/projects-success-3.jpg)"></div>
+                                    </div>
+                                    <div class="projects-success-item-info">
+                                        <div class="projects-success-item-info-item">Объем строительства: 122 345 м<sup>2</sup></div>
+                                        <div class="projects-success-item-info-item">Дом сдан в 2023 году</div>
+                                    </div>
+                                </div>
+                                <div class="projects-success-item-title">Лермонтов</div>
+                                <div class="projects-success-item-text">Жилой комплекс класса комфорт-плюс расположен в&nbsp;самом сердце Арбеково. Архитектурная концепция в&nbsp;стиле современная классика и&nbsp;уютный двор-сквер преобразили локацию, а&nbsp;элегантные холлы, удобные решения для комфортной жизни и&nbsp;разнообразная квартирография покорили сердца новосёлов.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main section END -->
+
+                    <!-- main section -->
+                    <div class="main-section">
+                        <div class="about-rule">
+                            <div class="about-rule-title">Главное правило DEWELL</div>
+                            <div class="about-rule-text">DO WELL DEVELOPMENT<br> делать свое хорошо</div>
+                        </div>
+                    </div>
+                    <!-- main section END -->
+
+                    <!-- main section -->
+                    <div class="main-section">
+                        <div class="main-section-title about-social-title">Социальная<br> ответственность</div>
+                        <div class="about-social-anonce">Мы&nbsp;осознаем важность социальных инициатив и&nbsp;принимаем активное участие во&nbsp;многих общественно-значимых проектах</div>
+                        <div class="about-social-list">
+                            <div class="about-social-item">
+                                <div class="about-social-item-photo"><img src="files/about-social-1.jpg" alt=""></div>
+                                <div class="about-social-item-text">Поддерживаем развитие спорта в&nbsp;регионе&nbsp;&mdash; принимаем участие в&nbsp;спортивных мероприятиях и&nbsp;фестивалях, создали собственную хоккейную команду &laquo;Дэвэл&raquo;, выступающую в&nbsp;Пензенской любительской хоккейной лиге с&nbsp;2023 года</div>
+                            </div>
+                            <div class="about-social-item">
+                                <div class="about-social-item-photo"><img src="files/about-social-2.jpg" alt=""></div>
+                                <div class="about-social-item-text">Участвуем в&nbsp;поддержке следж-хоккея и&nbsp;специального баскетбола для детей с&nbsp;ограниченными возможностями здоровья, способствуя их&nbsp;реабилитации и&nbsp;социальной адаптации</div>
+                            </div>
+                            <div class="about-social-item">
+                                <div class="about-social-item-photo"><img src="files/about-social-3.jpg" alt=""></div>
+                                <div class="about-social-item-text">Стремимся к&nbsp;развитию инклюзивного общества, поддерживая благотворительные проекты и&nbsp;инициативы, направленные на&nbsp;улучшение качества жизни всех его членов</div>
+                            </div>
+                            <div class="about-social-item">
+                                <div class="about-social-item-photo"><img src="files/about-social-4.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main section END -->
+
+                    <!-- main section -->
+                    <div class="main-section" data-id="about-team">
+                        <div class="main-section-title">Команда</div>
+                        <div class="about-team-anonce">DEWELL team&nbsp;&mdash; это команда профессионалов и&nbsp;экспертов в&nbsp;сфере девелопмента, объединенным общей идеей и&nbsp;видением. Люди&nbsp;&mdash; самая большая сила DEWELL.<br> Потому что мы&nbsp;строим не&nbsp;просто дома, мы&nbsp;строим будущее.</div>
+                        <div class="about-team">
+                            <div class="about-team-content">
+                                <div class="about-team-content-photo"><img src="files/about-team.jpg" alt=""><img src="files/about-team-mobile.jpg" alt=""></div>
+                                <div class="about-team-content-info">
+                                    <div class="about-team-content-title">Дмитрий Михайлович Денисов</span></div>
+                                    <div class="about-team-content-post">Управляющий собственник</div>
+                                    <div class="about-team-content-photo-mobile"><img src="files/about-team-mobile.jpg" alt=""></div>
+                                    <div class="about-team-content-text">Занимает должность Генерального директора с&nbsp;основания компании в&nbsp;2016&nbsp;году. До&nbsp;создания Level Group Кирилл возглавлял коммерческий блок в&nbsp;ГК&nbsp;&laquo;А101&raquo; и&nbsp;руководил проектами в&nbsp;McKinsey&amp;Co.<br> С&nbsp;отличием окончил Высшую школу экономики по&nbsp;специальности &laquo;менеджмент организации&raquo;, получил степень MBA в&nbsp;INSEAD.</div>
+                                </div>
+                            </div>
+                            <div class="about-team-info">
+                                <div class="about-team-info-text">
+                                    <div class="about-team-info-title">Карьера в&nbsp;DEWELL</div>
+                                    <div class="about-team-info-anonce">Узнайте про 20&nbsp;причин работать у&nbsp;нас. Присоединяйтесь!</div>
+                                </div>
+                                <div class="about-team-info-btns">
+                                    <div class="about-team-info-btn"><a href="#" class="btn">Подробнее</a></div>
+                                    <div class="about-team-info-btn"><a href="#" class="btn btn-white">Вакансии</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-team-list">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="about-team-item">
+                                            <div class="about-team-item-photo"><img src="files/about-team-list-01.jpg" alt=""><img src="files/about-team-list-01-mobile.jpg" alt=""></div>
+                                            <div class="about-team-item-title"><span>Павел</span> <span>Александрович</span> <span>Флейшер</span></div>
+                                            <div class="about-team-item-post">Генеральный директор</div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="about-team-item">
+                                            <div class="about-team-item-photo"><img src="files/about-team-list-02.jpg" alt=""><img src="files/about-team-list-02-mobile.jpg" alt=""></div>
+                                            <div class="about-team-item-title"><span>Максим</span> <span>Олегович</span> <span>Голов</div>
+                                            <div class="about-team-item-post">Заместитель генерального директора по юридическим вопросам</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="about-team-item">
+                                            <div class="about-team-item-photo"><img src="files/about-team-list-03.jpg" alt=""><img src="files/about-team-list-03-mobile.jpg" alt=""></div>
+                                            <div class="about-team-item-title"><span>Оксана</span> <span>Владимировна</span> <span>Ширикова</span></div>
+                                            <div class="about-team-item-post">Финансовый директор</div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="about-team-item">
+                                            <div class="about-team-item-photo"><img src="files/about-team-list-04.jpg" alt=""><img src="files/about-team-list-04-mobile.jpg" alt=""></div>
+                                            <div class="about-team-item-title"><span>Ирина</span> <span>Дмитриевна</span> <span>Обухова</span></div>
+                                            <div class="about-team-item-post">Директор по продукту</div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="about-team-item">
+                                            <div class="about-team-item-photo"><img src="files/about-team-list-05.jpg" alt=""><img src="files/about-team-list-05-mobile.jpg" alt=""></div>
+                                            <div class="about-team-item-title"><span>Светлана</span> <span>Анатольевна</span> <span>Живаева</span></div>
+                                            <div class="about-team-item-post">Главный бухгалтер</div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="about-team-item">
+                                            <div class="about-team-item-photo"><img src="files/about-team-list-06.jpg" alt=""><img src="files/about-team-list-06-mobile.jpg" alt=""></div>
+                                            <div class="about-team-item-title"><span>Татьяна</span> <span>Аркадьевна</span> <span>Горбачева</span></div>
+                                            <div class="about-team-item-post">Директор службы заказчика</div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="about-team-item">
+                                            <div class="about-team-item-photo"><img src="files/about-team-list-07.jpg" alt=""><img src="files/about-team-list-07-mobile.jpg" alt=""></div>
+                                            <div class="about-team-item-title"><span>Алексей</span> <span>Евгеньевич</span> <span>Адаменков</span></div>
+                                            <div class="about-team-item-post">Главный инженер</div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="about-team-item">
+                                            <div class="about-team-item-photo"><img src="files/about-team-list-08.jpg" alt=""><img src="files/about-team-list-08-mobile.jpg" alt=""></div>
+                                            <div class="about-team-item-title"><span>Надежда</span> <span>Анатольевна</span> <span>Арзютова</span></div>
+                                            <div class="about-team-item-post">Руководитель отдела продаж</div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="about-team-item">
+                                            <div class="about-team-item-photo"><img src="files/about-team-list-09.jpg" alt=""><img src="files/about-team-list-09-mobile.jpg" alt=""></div>
+                                            <div class="about-team-item-title"><span>Ксения</span> <span>Константиновна</span> <span>Конева</span></div>
+                                            <div class="about-team-item-post">Руководитель отдела маркетинга</div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="about-team-item">
+                                            <div class="about-team-item-photo"><img src="files/about-team-list-10.jpg" alt=""><img src="files/about-team-list-10-mobile.jpg" alt=""></div>
+                                            <div class="about-team-item-title"><span>Анастасия</span> <span>Викторовна</span> <span>Горбунова</span></div>
+                                            <div class="about-team-item-post">Руководитель отдела партнерских продаж</div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="about-team-item">
+                                            <div class="about-team-item-photo"><img src="files/about-team-list-11.jpg" alt=""><img src="files/about-team-list-11-mobile.jpg" alt=""></div>
+                                            <div class="about-team-item-title"><span>Всеволод</span> <span>Николаевич</span> <span>Пилипенко</span></div>
+                                            <div class="about-team-item-post">Руководитель проекта</div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="about-team-item">
+                                            <div class="about-team-item-photo"><img src="files/about-team-list-12.jpg" alt=""><img src="files/about-team-list-12-mobile.jpg" alt=""></div>
+                                            <div class="about-team-item-title"><span>Валерий</span> <span>Николаевич</span> <span>Тишкин</span></div>
+                                            <div class="about-team-item-post">Руководитель проекта</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-scrollbar"></div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"><svg><use xlink:href="images/sprite.svg#slider-prev"></use></svg></div>
+                            <div class="swiper-button-next"><svg><use xlink:href="images/sprite.svg#slider-next"></use></svg></div>
+                        </div>
+                        <div class="about-team-info-mobile">
+                            <div class="about-team-info-text">
+                                <div class="about-team-info-title">Карьера в&nbsp;DEWELL</div>
+                                <div class="about-team-info-anonce">Узнайте про 20&nbsp;причин работать у&nbsp;нас. Присоединяйтесь!</div>
+                            </div>
+                            <div class="about-team-info-btns">
+                                <div class="about-team-info-btn"><a href="#" class="btn">Подробнее</a></div>
+                                <div class="about-team-info-btn"><a href="#" class="btn btn-white">Вакансии</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main section END -->
+
+                    <!-- main section -->
+                    <div class="main-section">
+                        <div class="about-feedback">
+                            <div class="about-feedback-text">
+                                <div class="main-section-title">Напишите нам</div>
+                                <div class="about-feedback-anonce">Всегда рады помочь &mdash;<br> просто заполните форму</div>
+                            </div>
+                            <div class="about-feedback-btn"><a href="windows/feedback.html" class="btn btn-white window-link">Отправить обращение</a></div>
+                        </div>
+                    </div>
+                    <!-- main section END -->
+
+                </div>
+                <!-- container END -->
+
+            </div>
+            <!-- wrapper inner END -->
+
+            <footer>
+
+                <div class="footer-subscribe">
+                    <div class="container">
+                        <div class="footer-subscribe-title"><span>Подпишитесь на&nbsp;рассылку DEWELL</span>, чтобы первыми узнать о&nbsp;выгодных предложениях</div>
+                        <div class="footer-subscribe-form">
+                            <form data-action="ajax/subscribe.html" action="#" method="post">
+                                <div class="form-input"><input type="email" name="email" value="" class="required email" placeholder="Введите вашу почту..."></div>
+                                <div class="footer-subscribe-form-submit"><input type="submit" class="btn btn-white" value="Подписаться"></div>
+                                <div class="footer-subscribe-form-policy">Нажимая на кнопку, вы соглашаетесь с <a href="#">обработкой персональных данных</a></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="footer-container">
+                        <div class="footer-info">
+                            <div class="footer-phone"><a href="tel:+78412210078">8 (8412) 21-00-78</a></div>
+                            <div class="footer-email"><a href="mailto:info@dewell.ru">info@dewell.ru</a></div>
+                            <div class="footer-address">Центральный офис продаж DEWELL<br> Пенза, ул. Богданов, 57<br> Работаем с 9:00 до 20:00</div>
+                            <div class="footer-btns">
+                                <div class="footer-btn"><a href="windows/feedback.html" class="btn btn-white window-link">Написать нам</a></div>
+                                <div class="footer-social">
+                                    <a href="#" target="_blank"><svg><use xlink:href="images/sprite.svg#social-vk"></use></svg></a>
+                                    <a href="#" target="_blank"><svg><use xlink:href="images/sprite.svg#social-tg"></use></svg></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-nav">
+                            <div class="footer-nav-item">
+                                <div class="footer-nav-item-title"><a href="#">Проекты</a></div>
+                                <div class="footer-nav-item-menu">
+                                    <ul>
+                                        <li><a href="#">Wellart City</a></li>
+                                        <li><a href="#">Wellness-квартал ЛЕС</a></li>
+                                        <li><a href="#">My Maison</a></li>
+                                        <li><a href="#">Аристократ</a></li>
+                                        <li><a href="#">Barton House</a></li>
+                                        <li><a href="#">Лермонтов</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-nav-item">
+                                <div class="footer-nav-item-title"><a href="#">Недвижимость</a></div>
+                                <div class="footer-nav-item-menu">
+                                    <ul>
+                                        <li><a href="#">Проекты</a></li>
+                                        <li><a href="#">Квартиры</a></li>
+                                        <li><a href="#">Кладовые</a></li>
+                                        <li><a href="#">Машиноместа</a></li>
+                                        <li><a href="#">Коммерция</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-nav-item">
+                                <div class="footer-nav-item-title"><a href="#">Как купить</a></div>
+                                <div class="footer-nav-item-menu">
+                                    <ul>
+                                        <li><a href="#">Ипотека</a></li>
+                                        <li><a href="#">100% оплата</a></li>
+                                        <li><a href="#">Рассрочка</a></li>
+                                        <li><a href="#">Маткапитал</a></li>
+                                        <li><a href="#">Военная ипотека</a></li>
+                                        <li><a href="#">Трейд-ин</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-nav-item">
+                                <div class="footer-nav-item-title"><a href="#">Компания</a></div>
+                                <div class="footer-nav-item-menu">
+                                    <ul>
+                                        <li><a href="#">О Dewell</a></li>
+                                        <li><a href="#">Новости и акции</a></li>
+                                        <li><a href="#">Карьера</a></li>
+                                        <li><a href="#">Партнерам и агентам</a></li>
+                                        <li><a href="#">Вопросы и ответы</a></li>
+                                        <li><a href="#">Документы</a></li>
+                                        <li><a href="#">Контакты</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <div class="footer-legal">
+                            <div class="footer-legal-item">Dewell &copy;, 2007&nbsp;&mdash; 2025</div>
+                            <div class="footer-legal-item"><a href="#">Юридическая информация</a></div>
+                            <div class="footer-legal-item"><a href="#">Обработка персональных данных</a></div>
+                        </div>
+                        <div class="footer-developer"><a href="#">Сделано в СЕМЬ ПАП</a></div>
+                    </div>
+
+                    <div class="footer-disclamer">Любая информация, представленная на&nbsp;данном сайте, носит исключительно информационный характер и&nbsp;ни&nbsp;при каких условиях не&nbsp;является публичной офертой, определяемой положениями статьи 437&nbsp;ГК РФ. Застройщик оставляет за&nbsp;собой право досрочного прекращения или изменения условий акции, а&nbsp;также внепланового изменения стоимости объекта.</div>
+                </div>
+
+            </footer>
+
+        </div>
+        <!-- wrapper END -->
+
+        <script>
+            var pathTemplate = './';
+        </script>
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/swiper/swiper-bundle.min.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
+        <script src="js/validation/jquery.validate.min.js"></script>
+        <script src="js/validation/messages_ru.js"></script>
+        <script src="js/fancybox/jquery.fancybox.min.js"></script>
+        <script src="js/nouislider/nouislider.min.js"></script>
+        <script src="js/nouislider/wNumb.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+        <script src="js/tools.js"></script>
+
+    </body>
+</html>
